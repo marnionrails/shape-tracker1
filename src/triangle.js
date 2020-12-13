@@ -4,6 +4,6 @@
     this.side3 = side3;
 }
 
-/* Triangle.prototype.checkType = function() {
-    return "I can't answer that yet!";
-}  */
+Triangle.prototype.checkType = function() {
+    return "not a triangle";
+} 
