@@ -1,4 +1,10 @@
-$(document).ready(function() {
+import $ from 'jquery';
+import Triangle from './triangle.js';
+import 'bootstrap';
+import './css/styles.css';
+import './css/styles.css';
+
+// $(document).ready(function() {
     $('#triangle.checker-form').submit(function(event) {
         event.preventDefault();
         const length1 = $('#length1').val();
@@ -8,4 +14,4 @@ $(document).ready(function() {
         const response = triangle.checkType();
         $('#response').append("<p>" + response + "<p>");
     });
-});
+// });
